@@ -7,4 +7,5 @@ from config.conf import cm
 HOST = 'HOST'
 
 class ReadConfig():
+    
     pass
