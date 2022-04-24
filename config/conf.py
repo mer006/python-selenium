@@ -9,7 +9,7 @@ class ConfigManager():
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
     #REPORT_FILE
-    #ELEMENT_PATH
+    ELEMENT_PATH = os.path.join(BASE_DIR, 'page_element')
 
     @property
     def ini_file(self):
