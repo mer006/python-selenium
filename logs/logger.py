@@ -1,10 +1,9 @@
 #! usr/bin/env python3
 # -*- coding:utf-8 -*-
-'''
 import os,sys
 parentdir = os.path.dirname(os.path.dirname(__file__))
 sys.path.insert(0,parentdir)
-'''
+
 import logging
 from config.conf import cm
 
