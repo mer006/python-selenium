@@ -1,0 +1,3 @@
+INFO	2022-04-24 15:34:55,566	[logger.py:44]	hello word!
+DEBUG	2022-04-24 15:37:52,127	[logger.py:44]	hello word!
+DEBUG	2022-04-24 15:40:25,293	[logger.py:45]	hello word!
