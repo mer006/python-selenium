@@ -8,7 +8,7 @@ class ConfigManager():
     #项目目录
     BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-    #REPORT_FILE
+    REPORT_FILE = os.path.join(BASE_DIR, "report", "report.html")
     ELEMENT_PATH = os.path.join(BASE_DIR, 'page_element')
 
     @property
@@ -41,14 +41,14 @@ class ConfigManager():
 
     #邮件信息
     EMAIL_INFO = {
-        "username" : "",
-        "password" : "",
-        "smtp_host" : "",
-        "smtp_port" : ""
+        "username" : "lxl1@test.net",
+        "password" : "12345678",
+        "smtp_host" : "192.168.20.16",
+        "smtp_port" : "25"
     }
 
     #收件人列表
-    ADDRESS = ["798481537@qq.com"]
+    ADDRESS = ["lxl4@test.net"]
 
 #其他文件可以直接引用cm
 cm = ConfigManager()

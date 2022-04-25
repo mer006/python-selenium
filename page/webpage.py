@@ -19,7 +19,7 @@ from selenium import webdriver
 class WebPage():
     '''selenium基类'''
     def __init__(self, driver):
-        self.driver = webdriver.Chrome(executable_path='')
+        #self.driver = webdriver.Chrome(executable_path='')
         self.driver = driver
         self.timeout = 20
         self.wait = WebDriverWait(self.driver, self.timeout)

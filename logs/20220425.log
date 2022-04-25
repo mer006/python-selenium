@@ -1,0 +1,20 @@
+DEBUG	2022-04-25 13:06:00,000	[remote_connection.py:347]	POST http://localhost:54719/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}
+DEBUG	2022-04-25 13:06:00,024	[connectionpool.py:232]	Starting new HTTP connection (1): localhost:54719
+DEBUG	2022-04-25 13:06:04,257	[connectionpool.py:465]	http://localhost:54719 "POST /session HTTP/1.1" 200 763
+DEBUG	2022-04-25 13:06:04,260	[remote_connection.py:398]	Finished Request
+DEBUG	2022-04-25 13:06:04,263	[remote_connection.py:347]	POST http://localhost:54719/session/afbcde8e-0341-4b61-9458-9668772ec332/window/maximize {}
+DEBUG	2022-04-25 13:06:04,558	[connectionpool.py:465]	http://localhost:54719 "POST /session/afbcde8e-0341-4b61-9458-9668772ec332/window/maximize HTTP/1.1" 200 52
+DEBUG	2022-04-25 13:06:04,560	[remote_connection.py:398]	Finished Request
+DEBUG	2022-04-25 13:06:04,598	[remote_connection.py:347]	DELETE http://localhost:54719/session/afbcde8e-0341-4b61-9458-9668772ec332 {}
+DEBUG	2022-04-25 13:06:05,378	[connectionpool.py:465]	http://localhost:54719 "DELETE /session/afbcde8e-0341-4b61-9458-9668772ec332 HTTP/1.1" 200 14
+DEBUG	2022-04-25 13:06:05,381	[remote_connection.py:398]	Finished Request
+DEBUG	2022-04-25 13:06:35,873	[remote_connection.py:347]	POST http://localhost:54767/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}, "desiredCapabilities": {"browserName": "firefox", "acceptInsecureCerts": true, "moz:debuggerAddress": true, "pageLoadStrategy": "normal"}}
+DEBUG	2022-04-25 13:06:35,881	[connectionpool.py:232]	Starting new HTTP connection (1): localhost:54767
+DEBUG	2022-04-25 13:06:39,984	[connectionpool.py:465]	http://localhost:54767 "POST /session HTTP/1.1" 200 762
+DEBUG	2022-04-25 13:06:39,991	[remote_connection.py:398]	Finished Request
+DEBUG	2022-04-25 13:06:39,994	[remote_connection.py:347]	POST http://localhost:54767/session/bb799393-75f0-4278-bca6-05ce70b2a9b5/window/maximize {}
+DEBUG	2022-04-25 13:06:40,265	[connectionpool.py:465]	http://localhost:54767 "POST /session/bb799393-75f0-4278-bca6-05ce70b2a9b5/window/maximize HTTP/1.1" 200 52
+DEBUG	2022-04-25 13:06:40,267	[remote_connection.py:398]	Finished Request
+DEBUG	2022-04-25 13:06:40,307	[remote_connection.py:347]	DELETE http://localhost:54767/session/bb799393-75f0-4278-bca6-05ce70b2a9b5 {}
+DEBUG	2022-04-25 13:06:41,066	[connectionpool.py:465]	http://localhost:54767 "DELETE /session/bb799393-75f0-4278-bca6-05ce70b2a9b5 HTTP/1.1" 200 14
+DEBUG	2022-04-25 13:06:41,067	[remote_connection.py:398]	Finished Request

@@ -1,0 +1,7 @@
+需要安装的第三方库
+pip install selenium
+
+pip install pyyaml
+
+pip install pytest
+pip install pytest-html
