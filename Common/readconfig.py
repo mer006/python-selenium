@@ -27,6 +27,16 @@ class ReadConfig():
     @property
     def url(self):
         return self._get(HOST,HOST)
+    
+    @property
+    def ecnew_url(self):
+        return self._get('ecnewtest', 'url')
+    
+    @property
+    def ecnew_userinfo(self):
+        username = self._get('ecnewtest','username')
+        password = self._get('ecnewtest','password')
+        return username,password
 
 ini = ReadConfig()
 

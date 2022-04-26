@@ -429,7 +429,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report.html</h1>
-    <p>Report generated on 25-Apr-2022 at 16:20:36 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 26-Apr-2022 at 13:39:22 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -448,8 +448,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.7.7</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 16.98 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 9.98 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -463,23 +463,170 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">TestCase/test_search.py::TestSearch::test_001</td>
-          <td class="col-duration">13.41</td>
+          <td class="col-name">TestCase/test_eclogin.py::TestECLogin::test_001</td>
+          <td class="col-duration">9.57</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&lt;class &#x27;dict&#x27;&gt;
-&lt;class &#x27;dict&#x27;&gt;
-<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">TestCase/test_search.py::TestSearch::test_002</td>
-          <td class="col-duration">3.14</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>&lt;class &#x27;dict&#x27;&gt;
+            <div class="log"> -----------------------------Captured stderr setup------------------------------ <br/>INFO	2022-04-26 13:39:18,583	[logger.py:64]	打开网页：http://192.168.85.45:9091
+<br/> -------------------------------Captured log setup------------------------------- <br/>INFO     root:logger.py:64 打开网页：http://192.168.85.45:9091<br/> ------------------------------Captured stdout call------------------------------ <br/>&lt;class &#x27;dict&#x27;&gt;
 &lt;class &#x27;dict&#x27;&gt;
 &lt;class &#x27;dict&#x27;&gt;
-<br/></div></td></tr></tbody></table></body></html>
+<br/> ------------------------------Captured stderr call------------------------------ <br/>INFO	2022-04-26 13:39:19,132	[logger.py:64]	输入文本：(&#x27;id&#x27;, &#x27;username&#x27;)
+INFO	2022-04-26 13:39:19,689	[logger.py:64]	输入文本：(&#x27;id&#x27;, &#x27;password&#x27;)
+INFO	2022-04-26 13:39:21,917	[logger.py:64]	点击元素：(&#x27;id&#x27;, &#x27;btnSubmit&#x27;)
+INFO	2022-04-26 13:39:21,932	[logger.py:64]	&lt;html class=&quot;panel-fit&quot;&gt;&lt;head&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;title&gt;EC - Harbor House&lt;/title&gt;
+	&lt;script src=&quot;/lib/jquery/dist/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc&quot;&gt;&lt;/script&gt;
+	&lt;link href=&quot;/lib/easyui/themes/bootstrap/easyui.css?v=zva-blFyqPkQpdwKM6JROIVe0xH3P-w_bpaWzQir_-U&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/lib/easyui/themes/icon.css?v=clXAqUQZgElcw0544z7qRC_q7bVHBtUZ38aLbItaH00&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/lib/easyui/themes/color.css?v=5uD3HAXsjCQWooMgHtmnqtdX6NMmrwF9blqt9nW7akI&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/global_ec.css?v=GyVtv51CvLgoTYJSR3frPhCCZlUhUUzs7x6DjsCaU_E&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/site.css?v=599LusazrmJhaZkJEc6KiQ_3ss0NRTJ4K_Kd0r6Z_ms&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;
+&lt;body class=&quot;panel-noscroll&quot;&gt;
+	
+	&lt;div b-awrqssr4pu=&quot;&quot; id=&quot;contentPanel&quot; class=&quot;easyui-layout layout easyui-fluid&quot; data-options=&quot;fit:true&quot; style=&quot;width: 1920px; height: 927px;&quot;&gt;
+		&lt;div class=&quot;panel layout-panel layout-panel-center panel-htop&quot; style=&quot;width: 1920px; left: 0px; top: 0px;&quot;&gt;&lt;div b-awrqssr4pu=&quot;&quot; data-options=&quot;region:&#x27;center&#x27;,split:false,border:false&quot; style=&quot;padding: 0px; width: 1920px; height: 927px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader panel-body-noborder layout-body panel-noscroll&quot; id=&quot;&quot;&gt;
+			&lt;link href=&quot;/css/HomeIcon.css?v=M0Jw38Ie0uyaCOoG-w7b0GJL3XEreQwPRRMhUaIy4j8&quot; rel=&quot;stylesheet&quot;&gt;
+
+&lt;div id=&quot;header&quot; class=&quot;easyui-layout layout easyui-fluid&quot; data-options=&quot;fit:true,border:false&quot; style=&quot;width: 1920px; height: 927px;&quot;&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-north panel-htop&quot; style=&quot;width: 1920px; left: 0px; top: 0px;&quot;&gt;&lt;div data-options=&quot;region:&#x27;north&#x27;&quot; style=&quot;background-color: rgb(100, 112, 127); width: 1920px; height: 50px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader layout-body&quot; id=&quot;&quot;&gt;
+		&lt;div class=&quot;top&quot;&gt;
+			&lt;div class=&quot;user_wrp&quot;&gt;
+				&lt;i class=&quot;icon icon_top_user&quot;&gt;&lt;/i&gt;
+				1606
+				&lt;input id=&quot;hidCurUserID&quot; name=&quot;hidCurUserID&quot; type=&quot;hidden&quot; value=&quot;160601&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;menu_search&quot;&gt;
+				&lt;input id=&quot;linkId&quot; class=&quot;easyui-textbox textbox-f&quot; data-options=&quot;iconCls:&#x27;icon-search&#x27;, onChange: Query,onClickIcon:Query,prompt:&#x27;搜索&#x27;&quot; style=&quot;width: 200px; padding-left: 10px; display: none;&quot;&gt;&lt;span class=&quot;textbox&quot; style=&quot;width: 200px;&quot;&gt;&lt;span class=&quot;textbox-addon textbox-addon-right&quot; style=&quot;right: 0px; top: 0px;&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;textbox-icon icon-search textbox-icon-disabled&quot; icon-index=&quot;0&quot; tabindex=&quot;-1&quot; style=&quot;width: 26px; height: 28px;&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;input id=&quot;_easyui_textbox_input1&quot; type=&quot;text&quot; class=&quot;textbox-text validatebox-text textbox-prompt&quot; autocomplete=&quot;off&quot; tabindex=&quot;&quot; placeholder=&quot;搜索&quot; style=&quot;padding-left: 10px; margin: 0px 26px 0px 0px; padding-top: 0px; padding-bottom: 0px; height: 28px; line-height: 28px; width: 172px;&quot;&gt;&lt;input type=&quot;hidden&quot; class=&quot;textbox-value&quot; value=&quot;&quot;&gt;&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;topbar&quot;&gt;
+				&lt;div class=&quot;topbar-item&quot; id=&quot;topbar_innermsg&quot;&gt;
+
+					&lt;div class=&quot;topbar-msg-panel&quot;&gt;
+						&lt;div class=&quot;topbar-msg-arrow&quot;&gt;&lt;/div&gt;
+						&lt;ul class=&quot;topbar-msg&quot;&gt;&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;topbar-item&quot;&gt;
+					&lt;a id=&quot;changePwd&quot; href=&quot;javascript:;&quot; class=&quot;topbar-btn&quot;&gt;&lt;i class=&quot;icon icon_top_setting&quot;&gt;&lt;/i&gt;&lt;span&gt;修改密码&lt;/span&gt;&lt;/a&gt;
+					&lt;a id=&quot;logout&quot; href=&quot;javascript:;&quot; class=&quot;topbar-btn&quot; style=&quot;padding-top:15px&quot;&gt;&lt;i class=&quot;icon icon_top_logout&quot;&gt;&lt;/i&gt;&lt;span&gt;退出&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-west panel-htop&quot; style=&quot;width: 250px; left: 0px; top: 49px;&quot;&gt;&lt;div class=&quot;panel-header panel-header-noborder&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;导航菜单&lt;/div&gt;&lt;div class=&quot;panel-icon icon-redo&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;layout-button-left&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;menuContainer&quot; data-options=&quot;region:&#x27;west&#x27;,title:&#x27;导航菜单&#x27;,border:false,collapsible:true,split:false,iconCls:&#x27;icon-redo&#x27;&quot; style=&quot;overflow-x: hidden; width: 250px; height: 845px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noborder layout-body&quot;&gt;
+		&lt;div id=&quot;sidemenu&quot; class=&quot;easyui-sidemenu sidemenu easyui-fluid&quot; data-options=&quot;border:false,data:data,onSelect:DestopTabAdd&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;accordion accordion-noborder&quot;&gt;&lt;div class=&quot;panel panel-htop&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-header accordion-header accordion-header-selected tooltip-f&quot; style=&quot;width: 250px; height: 33px;&quot; title=&quot;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;系统设置&lt;/div&gt;&lt;div class=&quot;panel-icon icon_menu_setting&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;accordion-collapse&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div title=&quot;&quot; class=&quot;panel-body accordion-body&quot; id=&quot;&quot; style=&quot;width: 250px;&quot;&gt;&lt;ul class=&quot;sidemenu-tree tree&quot;&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_1&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;用户管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_2&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;角色管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_3&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;角色权限管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;panel panel-htop panel-last&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-header accordion-header tooltip-f&quot; style=&quot;height: 33px; width: 250px;&quot; title=&quot;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;绩效管理&lt;/div&gt;&lt;div class=&quot;panel-icon icon_wallet&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse panel-tool-expand&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;accordion-collapse accordion-expand&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div title=&quot;&quot; class=&quot;panel-body accordion-body&quot; id=&quot;&quot; style=&quot;display: none; width: 250px;&quot;&gt;&lt;ul class=&quot;sidemenu-tree tree&quot;&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_4&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;绩效系数维护&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_5&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;人员及指标分配表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_6&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;基础数据表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_7&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;绩效分配表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-center panel-htop&quot; style=&quot;width: 1670px; left: 250px; top: 49px;&quot;&gt;&lt;div data-options=&quot;region:&#x27;center&#x27;&quot; style=&quot;width: 1670px; height: 878px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader layout-body&quot; id=&quot;&quot;&gt;
+		&lt;div id=&quot;page&quot; class=&quot;panel-noscroll&quot;&gt;
+			&lt;div id=&quot;global_tabs&quot; data-options=&quot;tabHeight:30&quot; class=&quot;tabs-container easyui-fluid&quot; style=&quot;width: 1668px; height: 876px;&quot;&gt; &lt;div class=&quot;tabs-header tabs-header-noborder&quot; style=&quot;width: 1668px;&quot;&gt;&lt;div class=&quot;tabs-scroller-left&quot; style=&quot;display: none; height: 32px;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;tabs-scroller-right&quot; style=&quot;display: none; height: 32px;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;tabs-wrap&quot; style=&quot;margin-left: 0px; margin-right: 34px; width: 1634px;&quot;&gt;&lt;ul class=&quot;tabs&quot; style=&quot;height: 30px;&quot;&gt;&lt;li class=&quot;tabs-first tabs-last tabs-selected&quot;&gt;&lt;span class=&quot;tabs-inner&quot; style=&quot;height: 30px; line-height: 28px;&quot;&gt;&lt;span class=&quot;tabs-title tabs-with-icon&quot;&gt;主页&lt;/span&gt;&lt;span class=&quot;tabs-icon icon-house&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;tabs-tool&quot; style=&quot;display: block; height: 32px; right: 0px;&quot;&gt;&lt;table style=&quot;height:100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;l-btn l-btn-small l-btn-plain&quot; group=&quot;&quot; id=&quot;&quot;&gt;&lt;span class=&quot;l-btn-left l-btn-icon-left&quot;&gt;&lt;span class=&quot;l-btn-text l-btn-empty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;l-btn-icon icon-reload&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;tabs-panels tabs-panels-noborder&quot; style=&quot;height: 844px; width: 1668px;&quot;&gt;&lt;div class=&quot;panel panel-htop&quot; style=&quot;width: 1668px;&quot;&gt;&lt;div title=&quot;&quot; class=&quot;panel-body panel-body-noheader panel-body-noborder&quot; id=&quot;_panel_/Home/About&quot; style=&quot;width: 1668px; height: 844px;&quot;&gt;&lt;iframe style=&quot;height:99%;width:100%&quot; src=&quot;Home/About?currentUserID=160601&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;layout-split-proxy-h&quot;&gt;&lt;/div&gt;&lt;div class=&quot;layout-split-proxy-v&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+		&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;layout-split-proxy-h&quot;&gt;&lt;/div&gt;&lt;div class=&quot;layout-split-proxy-v&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;script src=&quot;/lib/easyui/jquery.easyui.min.js?v=bd5SwiktK6szGUpEb-3Z_WaMfTgKd9Oq9bDo7He_gVQ&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/lib/easyui/locale/easyui-lang-zh_CN.js?v=gjxjEKUVxYlubNPD-C-tQncNPYTKCGvnMk4qyVnkd20&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/util.js?v=0swFGqeiq-1nlP20tk1MfRkbNOSCrfA1xf_46L3czZg&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/framework-util.js?v=s29tUBPQRl9dheiEVpidKNbK6vuy_NRQxS08J71dzVI&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/easyui-extend.js?v=dN1-8Imvk7rw9Eo_NB7y9Pe3P5j0haxvIZewuDeVHPw&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/jquery.ajax.arraybuffer.min.js?v=Gm9QlFRxrivN8aWCSlna2BlKdSRPm0YYt7CQu8kXBPw&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/site.js?v=_2UYrACGLK0a7v63eqYHIOluoNPLV4Mh28YHARdLxss&quot;&gt;&lt;/script&gt;
+	
+&lt;script src=&quot;/lib/easyui/jquery.easyui.extend.js?v=Gx23TnlNWyzksvh8Z8bNt6_rgZ9TyozsVn_ZoTW2TO8&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/View/Home/Desktop.js?v=aFAcxJ0eJnrPcYEtSOLiolOx2KS_XsVULE2bKdPOAb8&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;div id=&quot;global_dialog&quot; style=&quot;padding:5px;display:none;&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	var data=[{&quot;id&quot;:&quot;1&quot;,&quot;text&quot;:&quot;系统设置&quot;,&quot;iconCls&quot;:&quot;icon_menu_setting&quot;,&quot;state&quot;:&quot;open&quot;,&quot;attributes&quot;:null,&quot;children&quot;:[{&quot;id&quot;:&quot;113&quot;,&quot;text&quot;:&quot;用户管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/User/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;114&quot;,&quot;text&quot;:&quot;角色管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/Role/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;25&quot;,&quot;text&quot;:&quot;角色权限管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/RolePopedom/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false}],&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;206&quot;,&quot;text&quot;:&quot;绩效管理&quot;,&quot;iconCls&quot;:&quot;icon_wallet&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:null,&quot;children&quot;:[{&quot;id&quot;:&quot;207&quot;,&quot;text&quot;:&quot;绩效系数维护&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/Coefficient/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;208&quot;,&quot;text&quot;:&quot;人员及指标分配表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/StoreTarget/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;209&quot;,&quot;text&quot;:&quot;基础数据表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/BasePerformance/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;210&quot;,&quot;text&quot;:&quot;绩效分配表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/Distribution/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false}],&quot;searchFlag&quot;:false}];
+&lt;/script&gt;
+&lt;script src=&quot;/js/View/Home/Home.js?v=IEoepfYdg7sDfuUQ3wc8HWtjZCvh4VApFXju1z5T50A&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    
+
+
+
+&lt;/body&gt;&lt;/html&gt;
+<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     root:logger.py:64 输入文本：(&#x27;id&#x27;, &#x27;username&#x27;)
+INFO     root:logger.py:64 输入文本：(&#x27;id&#x27;, &#x27;password&#x27;)
+INFO     root:logger.py:64 点击元素：(&#x27;id&#x27;, &#x27;btnSubmit&#x27;)
+INFO     root:logger.py:64 &lt;html class=&quot;panel-fit&quot;&gt;&lt;head&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+	&lt;title&gt;EC - Harbor House&lt;/title&gt;
+	&lt;script src=&quot;/lib/jquery/dist/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc&quot;&gt;&lt;/script&gt;
+	&lt;link href=&quot;/lib/easyui/themes/bootstrap/easyui.css?v=zva-blFyqPkQpdwKM6JROIVe0xH3P-w_bpaWzQir_-U&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/lib/easyui/themes/icon.css?v=clXAqUQZgElcw0544z7qRC_q7bVHBtUZ38aLbItaH00&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/lib/easyui/themes/color.css?v=5uD3HAXsjCQWooMgHtmnqtdX6NMmrwF9blqt9nW7akI&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/global_ec.css?v=GyVtv51CvLgoTYJSR3frPhCCZlUhUUzs7x6DjsCaU_E&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;/css/site.css?v=599LusazrmJhaZkJEc6KiQ_3ss0NRTJ4K_Kd0r6Z_ms&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;/head&gt;
+&lt;body class=&quot;panel-noscroll&quot;&gt;
+	
+	&lt;div b-awrqssr4pu=&quot;&quot; id=&quot;contentPanel&quot; class=&quot;easyui-layout layout easyui-fluid&quot; data-options=&quot;fit:true&quot; style=&quot;width: 1920px; height: 927px;&quot;&gt;
+		&lt;div class=&quot;panel layout-panel layout-panel-center panel-htop&quot; style=&quot;width: 1920px; left: 0px; top: 0px;&quot;&gt;&lt;div b-awrqssr4pu=&quot;&quot; data-options=&quot;region:&#x27;center&#x27;,split:false,border:false&quot; style=&quot;padding: 0px; width: 1920px; height: 927px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader panel-body-noborder layout-body panel-noscroll&quot; id=&quot;&quot;&gt;
+			&lt;link href=&quot;/css/HomeIcon.css?v=M0Jw38Ie0uyaCOoG-w7b0GJL3XEreQwPRRMhUaIy4j8&quot; rel=&quot;stylesheet&quot;&gt;
+
+&lt;div id=&quot;header&quot; class=&quot;easyui-layout layout easyui-fluid&quot; data-options=&quot;fit:true,border:false&quot; style=&quot;width: 1920px; height: 927px;&quot;&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-north panel-htop&quot; style=&quot;width: 1920px; left: 0px; top: 0px;&quot;&gt;&lt;div data-options=&quot;region:&#x27;north&#x27;&quot; style=&quot;background-color: rgb(100, 112, 127); width: 1920px; height: 50px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader layout-body&quot; id=&quot;&quot;&gt;
+		&lt;div class=&quot;top&quot;&gt;
+			&lt;div class=&quot;user_wrp&quot;&gt;
+				&lt;i class=&quot;icon icon_top_user&quot;&gt;&lt;/i&gt;
+				1606
+				&lt;input id=&quot;hidCurUserID&quot; name=&quot;hidCurUserID&quot; type=&quot;hidden&quot; value=&quot;160601&quot;&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;menu_search&quot;&gt;
+				&lt;input id=&quot;linkId&quot; class=&quot;easyui-textbox textbox-f&quot; data-options=&quot;iconCls:&#x27;icon-search&#x27;, onChange: Query,onClickIcon:Query,prompt:&#x27;搜索&#x27;&quot; style=&quot;width: 200px; padding-left: 10px; display: none;&quot;&gt;&lt;span class=&quot;textbox&quot; style=&quot;width: 200px;&quot;&gt;&lt;span class=&quot;textbox-addon textbox-addon-right&quot; style=&quot;right: 0px; top: 0px;&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;textbox-icon icon-search textbox-icon-disabled&quot; icon-index=&quot;0&quot; tabindex=&quot;-1&quot; style=&quot;width: 26px; height: 28px;&quot;&gt;&lt;/a&gt;&lt;/span&gt;&lt;input id=&quot;_easyui_textbox_input1&quot; type=&quot;text&quot; class=&quot;textbox-text validatebox-text textbox-prompt&quot; autocomplete=&quot;off&quot; tabindex=&quot;&quot; placeholder=&quot;搜索&quot; style=&quot;padding-left: 10px; margin: 0px 26px 0px 0px; padding-top: 0px; padding-bottom: 0px; height: 28px; line-height: 28px; width: 172px;&quot;&gt;&lt;input type=&quot;hidden&quot; class=&quot;textbox-value&quot; value=&quot;&quot;&gt;&lt;/span&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;topbar&quot;&gt;
+				&lt;div class=&quot;topbar-item&quot; id=&quot;topbar_innermsg&quot;&gt;
+
+					&lt;div class=&quot;topbar-msg-panel&quot;&gt;
+						&lt;div class=&quot;topbar-msg-arrow&quot;&gt;&lt;/div&gt;
+						&lt;ul class=&quot;topbar-msg&quot;&gt;&lt;/ul&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div class=&quot;topbar-item&quot;&gt;
+					&lt;a id=&quot;changePwd&quot; href=&quot;javascript:;&quot; class=&quot;topbar-btn&quot;&gt;&lt;i class=&quot;icon icon_top_setting&quot;&gt;&lt;/i&gt;&lt;span&gt;修改密码&lt;/span&gt;&lt;/a&gt;
+					&lt;a id=&quot;logout&quot; href=&quot;javascript:;&quot; class=&quot;topbar-btn&quot; style=&quot;padding-top:15px&quot;&gt;&lt;i class=&quot;icon icon_top_logout&quot;&gt;&lt;/i&gt;&lt;span&gt;退出&lt;/span&gt;&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-west panel-htop&quot; style=&quot;width: 250px; left: 0px; top: 49px;&quot;&gt;&lt;div class=&quot;panel-header panel-header-noborder&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;导航菜单&lt;/div&gt;&lt;div class=&quot;panel-icon icon-redo&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;layout-button-left&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div id=&quot;menuContainer&quot; data-options=&quot;region:&#x27;west&#x27;,title:&#x27;导航菜单&#x27;,border:false,collapsible:true,split:false,iconCls:&#x27;icon-redo&#x27;&quot; style=&quot;overflow-x: hidden; width: 250px; height: 845px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noborder layout-body&quot;&gt;
+		&lt;div id=&quot;sidemenu&quot; class=&quot;easyui-sidemenu sidemenu easyui-fluid&quot; data-options=&quot;border:false,data:data,onSelect:DestopTabAdd&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;accordion accordion-noborder&quot;&gt;&lt;div class=&quot;panel panel-htop&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-header accordion-header accordion-header-selected tooltip-f&quot; style=&quot;width: 250px; height: 33px;&quot; title=&quot;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;系统设置&lt;/div&gt;&lt;div class=&quot;panel-icon icon_menu_setting&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;accordion-collapse&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div title=&quot;&quot; class=&quot;panel-body accordion-body&quot; id=&quot;&quot; style=&quot;width: 250px;&quot;&gt;&lt;ul class=&quot;sidemenu-tree tree&quot;&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_1&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;用户管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_2&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;角色管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_3&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;角色权限管理&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;panel panel-htop panel-last&quot; style=&quot;width: 250px;&quot;&gt;&lt;div class=&quot;panel-header accordion-header tooltip-f&quot; style=&quot;height: 33px; width: 250px;&quot; title=&quot;&quot;&gt;&lt;div class=&quot;panel-title panel-with-icon&quot;&gt;绩效管理&lt;/div&gt;&lt;div class=&quot;panel-icon icon_wallet&quot;&gt;&lt;/div&gt;&lt;div class=&quot;panel-tool&quot;&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;panel-tool-collapse panel-tool-expand&quot; style=&quot;display: none;&quot;&gt;&lt;/a&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;accordion-collapse accordion-expand&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div title=&quot;&quot; class=&quot;panel-body accordion-body&quot; id=&quot;&quot; style=&quot;display: none; width: 250px;&quot;&gt;&lt;ul class=&quot;sidemenu-tree tree&quot;&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_4&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;绩效系数维护&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_5&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;人员及指标分配表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_6&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;基础数据表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div id=&quot;_easyui_tree_7&quot; class=&quot;tree-node&quot;&gt;&lt;span class=&quot;tree-indent&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-icon tree-file icon_child_null&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tree-title&quot;&gt;绩效分配表&lt;/span&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;panel layout-panel layout-panel-center panel-htop&quot; style=&quot;width: 1670px; left: 250px; top: 49px;&quot;&gt;&lt;div data-options=&quot;region:&#x27;center&#x27;&quot; style=&quot;width: 1670px; height: 878px;&quot; title=&quot;&quot; class=&quot;panel-body panel-body-noheader layout-body&quot; id=&quot;&quot;&gt;
+		&lt;div id=&quot;page&quot; class=&quot;panel-noscroll&quot;&gt;
+			&lt;div id=&quot;global_tabs&quot; data-options=&quot;tabHeight:30&quot; class=&quot;tabs-container easyui-fluid&quot; style=&quot;width: 1668px; height: 876px;&quot;&gt; &lt;div class=&quot;tabs-header tabs-header-noborder&quot; style=&quot;width: 1668px;&quot;&gt;&lt;div class=&quot;tabs-scroller-left&quot; style=&quot;display: none; height: 32px;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;tabs-scroller-right&quot; style=&quot;display: none; height: 32px;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;tabs-wrap&quot; style=&quot;margin-left: 0px; margin-right: 34px; width: 1634px;&quot;&gt;&lt;ul class=&quot;tabs&quot; style=&quot;height: 30px;&quot;&gt;&lt;li class=&quot;tabs-first tabs-last tabs-selected&quot;&gt;&lt;span class=&quot;tabs-inner&quot; style=&quot;height: 30px; line-height: 28px;&quot;&gt;&lt;span class=&quot;tabs-title tabs-with-icon&quot;&gt;主页&lt;/span&gt;&lt;span class=&quot;tabs-icon icon-house&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;tabs-tool&quot; style=&quot;display: block; height: 32px; right: 0px;&quot;&gt;&lt;table style=&quot;height:100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;javascript:;&quot; class=&quot;l-btn l-btn-small l-btn-plain&quot; group=&quot;&quot; id=&quot;&quot;&gt;&lt;span class=&quot;l-btn-left l-btn-icon-left&quot;&gt;&lt;span class=&quot;l-btn-text l-btn-empty&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;l-btn-icon icon-reload&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;tabs-panels tabs-panels-noborder&quot; style=&quot;height: 844px; width: 1668px;&quot;&gt;&lt;div class=&quot;panel panel-htop&quot; style=&quot;width: 1668px;&quot;&gt;&lt;div title=&quot;&quot; class=&quot;panel-body panel-body-noheader panel-body-noborder&quot; id=&quot;_panel_/Home/About&quot; style=&quot;width: 1668px; height: 844px;&quot;&gt;&lt;iframe style=&quot;height:99%;width:100%&quot; src=&quot;Home/About?currentUserID=160601&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;layout-split-proxy-h&quot;&gt;&lt;/div&gt;&lt;div class=&quot;layout-split-proxy-v&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+
+		&lt;/div&gt;&lt;/div&gt;
+	&lt;div class=&quot;layout-split-proxy-h&quot;&gt;&lt;/div&gt;&lt;div class=&quot;layout-split-proxy-v&quot;&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;script src=&quot;/lib/easyui/jquery.easyui.min.js?v=bd5SwiktK6szGUpEb-3Z_WaMfTgKd9Oq9bDo7He_gVQ&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/lib/easyui/locale/easyui-lang-zh_CN.js?v=gjxjEKUVxYlubNPD-C-tQncNPYTKCGvnMk4qyVnkd20&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/util.js?v=0swFGqeiq-1nlP20tk1MfRkbNOSCrfA1xf_46L3czZg&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/framework-util.js?v=s29tUBPQRl9dheiEVpidKNbK6vuy_NRQxS08J71dzVI&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/easyui-extend.js?v=dN1-8Imvk7rw9Eo_NB7y9Pe3P5j0haxvIZewuDeVHPw&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/util/jquery.ajax.arraybuffer.min.js?v=Gm9QlFRxrivN8aWCSlna2BlKdSRPm0YYt7CQu8kXBPw&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/js/site.js?v=_2UYrACGLK0a7v63eqYHIOluoNPLV4Mh28YHARdLxss&quot;&gt;&lt;/script&gt;
+	
+&lt;script src=&quot;/lib/easyui/jquery.easyui.extend.js?v=Gx23TnlNWyzksvh8Z8bNt6_rgZ9TyozsVn_ZoTW2TO8&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/js/View/Home/Desktop.js?v=aFAcxJ0eJnrPcYEtSOLiolOx2KS_XsVULE2bKdPOAb8&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;div id=&quot;global_dialog&quot; style=&quot;padding:5px;display:none;&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	var data=[{&quot;id&quot;:&quot;1&quot;,&quot;text&quot;:&quot;系统设置&quot;,&quot;iconCls&quot;:&quot;icon_menu_setting&quot;,&quot;state&quot;:&quot;open&quot;,&quot;attributes&quot;:null,&quot;children&quot;:[{&quot;id&quot;:&quot;113&quot;,&quot;text&quot;:&quot;用户管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/User/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;114&quot;,&quot;text&quot;:&quot;角色管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/Role/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;25&quot;,&quot;text&quot;:&quot;角色权限管理&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;Basic/RolePopedom/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false}],&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;206&quot;,&quot;text&quot;:&quot;绩效管理&quot;,&quot;iconCls&quot;:&quot;icon_wallet&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:null,&quot;children&quot;:[{&quot;id&quot;:&quot;207&quot;,&quot;text&quot;:&quot;绩效系数维护&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/Coefficient/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;208&quot;,&quot;text&quot;:&quot;人员及指标分配表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/StoreTarget/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;209&quot;,&quot;text&quot;:&quot;基础数据表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/BasePerformance/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false},{&quot;id&quot;:&quot;210&quot;,&quot;text&quot;:&quot;绩效分配表&quot;,&quot;iconCls&quot;:&quot;icon_child_null&quot;,&quot;state&quot;:&quot;&quot;,&quot;attributes&quot;:{&quot;url&quot;:&quot;SalePerformance/Distribution/Index&quot;},&quot;children&quot;:null,&quot;searchFlag&quot;:false}],&quot;searchFlag&quot;:false}];
+&lt;/script&gt;
+&lt;script src=&quot;/js/View/Home/Home.js?v=IEoepfYdg7sDfuUQ3wc8HWtjZCvh4VApFXju1z5T50A&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+    
+
+
+
+&lt;/body&gt;&lt;/html&gt;<br/></div></td></tr></tbody></table></body></html>

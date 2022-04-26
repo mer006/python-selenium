@@ -1,6 +1,5 @@
 #! /usr/bin/env python3
 # -*- coding:utf-8 -*-
-from cgitb import text
 from page.webpage import WebPage, sleep
 from common.readElement import Element
 

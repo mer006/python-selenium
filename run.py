@@ -4,5 +4,5 @@ import pytest
 from utils.send_mail import send_report
 
 if __name__ == '__main__':
-    pytest.main(['TestCase/test_search.py'])
-    send_report()
+    pytest.main(['TestCase/test_eclogin.py'])
+    #send_report()

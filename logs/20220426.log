@@ -1,0 +1,85 @@
+INFO	2022-04-26 13:32:48,566	[logger.py:64]	打开网页：http://192.168.85.45:9091
+INFO	2022-04-26 13:32:49,114	[logger.py:64]	输入文本：('id', 'username')
+INFO	2022-04-26 13:32:49,647	[logger.py:64]	输入文本：('id', 'password')
+INFO	2022-04-26 13:32:51,875	[logger.py:64]	点击元素：('id', 'btnSubmit')
+INFO	2022-04-26 13:32:51,883	[logger.py:64]	<re.Match object; span=(1980, 1984), match='1606'>
+INFO	2022-04-26 13:39:18,583	[logger.py:64]	打开网页：http://192.168.85.45:9091
+INFO	2022-04-26 13:39:19,132	[logger.py:64]	输入文本：('id', 'username')
+INFO	2022-04-26 13:39:19,689	[logger.py:64]	输入文本：('id', 'password')
+INFO	2022-04-26 13:39:21,917	[logger.py:64]	点击元素：('id', 'btnSubmit')
+INFO	2022-04-26 13:39:21,932	[logger.py:64]	<html class="panel-fit"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EC - Harbor House</title>
+	<script src="/lib/jquery/dist/jquery.js?v=QWo7LDvxbWT2tbbQ97B53yJnYU3WhH_C8ycbRAkjPDc"></script>
+	<link href="/lib/easyui/themes/bootstrap/easyui.css?v=zva-blFyqPkQpdwKM6JROIVe0xH3P-w_bpaWzQir_-U" rel="stylesheet">
+	<link href="/lib/easyui/themes/icon.css?v=clXAqUQZgElcw0544z7qRC_q7bVHBtUZ38aLbItaH00" rel="stylesheet">
+	<link href="/lib/easyui/themes/color.css?v=5uD3HAXsjCQWooMgHtmnqtdX6NMmrwF9blqt9nW7akI" rel="stylesheet">
+	<link href="/css/global_ec.css?v=GyVtv51CvLgoTYJSR3frPhCCZlUhUUzs7x6DjsCaU_E" rel="stylesheet">
+	<link href="/css/site.css?v=599LusazrmJhaZkJEc6KiQ_3ss0NRTJ4K_Kd0r6Z_ms" rel="stylesheet">
+</head>
+<body class="panel-noscroll">
+	
+	<div b-awrqssr4pu="" id="contentPanel" class="easyui-layout layout easyui-fluid" data-options="fit:true" style="width: 1920px; height: 927px;">
+		<div class="panel layout-panel layout-panel-center panel-htop" style="width: 1920px; left: 0px; top: 0px;"><div b-awrqssr4pu="" data-options="region:'center',split:false,border:false" style="padding: 0px; width: 1920px; height: 927px;" title="" class="panel-body panel-body-noheader panel-body-noborder layout-body panel-noscroll" id="">
+			<link href="/css/HomeIcon.css?v=M0Jw38Ie0uyaCOoG-w7b0GJL3XEreQwPRRMhUaIy4j8" rel="stylesheet">
+
+<div id="header" class="easyui-layout layout easyui-fluid" data-options="fit:true,border:false" style="width: 1920px; height: 927px;">
+	<div class="panel layout-panel layout-panel-north panel-htop" style="width: 1920px; left: 0px; top: 0px;"><div data-options="region:'north'" style="background-color: rgb(100, 112, 127); width: 1920px; height: 50px;" title="" class="panel-body panel-body-noheader layout-body" id="">
+		<div class="top">
+			<div class="user_wrp">
+				<i class="icon icon_top_user"></i>
+				1606
+				<input id="hidCurUserID" name="hidCurUserID" type="hidden" value="160601">
+			</div>
+			<div class="menu_search">
+				<input id="linkId" class="easyui-textbox textbox-f" data-options="iconCls:'icon-search', onChange: Query,onClickIcon:Query,prompt:'搜索'" style="width: 200px; padding-left: 10px; display: none;"><span class="textbox" style="width: 200px;"><span class="textbox-addon textbox-addon-right" style="right: 0px; top: 0px;"><a href="javascript:;" class="textbox-icon icon-search textbox-icon-disabled" icon-index="0" tabindex="-1" style="width: 26px; height: 28px;"></a></span><input id="_easyui_textbox_input1" type="text" class="textbox-text validatebox-text textbox-prompt" autocomplete="off" tabindex="" placeholder="搜索" style="padding-left: 10px; margin: 0px 26px 0px 0px; padding-top: 0px; padding-bottom: 0px; height: 28px; line-height: 28px; width: 172px;"><input type="hidden" class="textbox-value" value=""></span>
+			</div>
+			<div class="topbar">
+				<div class="topbar-item" id="topbar_innermsg">
+
+					<div class="topbar-msg-panel">
+						<div class="topbar-msg-arrow"></div>
+						<ul class="topbar-msg"></ul>
+					</div>
+				</div>
+				<div class="topbar-item">
+					<a id="changePwd" href="javascript:;" class="topbar-btn"><i class="icon icon_top_setting"></i><span>修改密码</span></a>
+					<a id="logout" href="javascript:;" class="topbar-btn" style="padding-top:15px"><i class="icon icon_top_logout"></i><span>退出</span></a>
+				</div>
+			</div>
+		</div>
+
+	</div></div>
+	<div class="panel layout-panel layout-panel-west panel-htop" style="width: 250px; left: 0px; top: 49px;"><div class="panel-header panel-header-noborder" style="width: 250px;"><div class="panel-title panel-with-icon">导航菜单</div><div class="panel-icon icon-redo"></div><div class="panel-tool"><a href="javascript:;" class="panel-tool-collapse" style="display: none;"></a><a href="javascript:;" class="layout-button-left"></a></div></div><div id="menuContainer" data-options="region:'west',title:'导航菜单',border:false,collapsible:true,split:false,iconCls:'icon-redo'" style="overflow-x: hidden; width: 250px; height: 845px;" title="" class="panel-body panel-body-noborder layout-body">
+		<div id="sidemenu" class="easyui-sidemenu sidemenu easyui-fluid" data-options="border:false,data:data,onSelect:DestopTabAdd" style="width: 250px;"><div class="accordion accordion-noborder"><div class="panel panel-htop" style="width: 250px;"><div class="panel-header accordion-header accordion-header-selected tooltip-f" style="width: 250px; height: 33px;" title=""><div class="panel-title panel-with-icon">系统设置</div><div class="panel-icon icon_menu_setting"></div><div class="panel-tool"><a href="javascript:;" class="panel-tool-collapse" style="display: none;"></a><a href="javascript:;" class="accordion-collapse"></a></div></div><div title="" class="panel-body accordion-body" id="" style="width: 250px;"><ul class="sidemenu-tree tree"><li><div id="_easyui_tree_1" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">用户管理</span></div></li><li><div id="_easyui_tree_2" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">角色管理</span></div></li><li><div id="_easyui_tree_3" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">角色权限管理</span></div></li></ul></div></div><div class="panel panel-htop panel-last" style="width: 250px;"><div class="panel-header accordion-header tooltip-f" style="height: 33px; width: 250px;" title=""><div class="panel-title panel-with-icon">绩效管理</div><div class="panel-icon icon_wallet"></div><div class="panel-tool"><a href="javascript:;" class="panel-tool-collapse panel-tool-expand" style="display: none;"></a><a href="javascript:;" class="accordion-collapse accordion-expand"></a></div></div><div title="" class="panel-body accordion-body" id="" style="display: none; width: 250px;"><ul class="sidemenu-tree tree"><li><div id="_easyui_tree_4" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">绩效系数维护</span></div></li><li><div id="_easyui_tree_5" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">人员及指标分配表</span></div></li><li><div id="_easyui_tree_6" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">基础数据表</span></div></li><li><div id="_easyui_tree_7" class="tree-node"><span class="tree-indent"></span><span class="tree-icon tree-file icon_child_null"></span><span class="tree-title">绩效分配表</span></div></li></ul></div></div></div></div>
+	</div></div>
+	<div class="panel layout-panel layout-panel-center panel-htop" style="width: 1670px; left: 250px; top: 49px;"><div data-options="region:'center'" style="width: 1670px; height: 878px;" title="" class="panel-body panel-body-noheader layout-body" id="">
+		<div id="page" class="panel-noscroll">
+			<div id="global_tabs" data-options="tabHeight:30" class="tabs-container easyui-fluid" style="width: 1668px; height: 876px;"> <div class="tabs-header tabs-header-noborder" style="width: 1668px;"><div class="tabs-scroller-left" style="display: none; height: 32px;"></div><div class="tabs-scroller-right" style="display: none; height: 32px;"></div><div class="tabs-wrap" style="margin-left: 0px; margin-right: 34px; width: 1634px;"><ul class="tabs" style="height: 30px;"><li class="tabs-first tabs-last tabs-selected"><span class="tabs-inner" style="height: 30px; line-height: 28px;"><span class="tabs-title tabs-with-icon">主页</span><span class="tabs-icon icon-house"></span></span></li></ul></div><div class="tabs-tool" style="display: block; height: 32px; right: 0px;"><table style="height:100%" cellspacing="0" cellpadding="0"><tbody><tr><td><a href="javascript:;" class="l-btn l-btn-small l-btn-plain" group="" id=""><span class="l-btn-left l-btn-icon-left"><span class="l-btn-text l-btn-empty">&nbsp;</span><span class="l-btn-icon icon-reload">&nbsp;</span></span></a></td></tr></tbody></table></div></div><div class="tabs-panels tabs-panels-noborder" style="height: 844px; width: 1668px;"><div class="panel panel-htop" style="width: 1668px;"><div title="" class="panel-body panel-body-noheader panel-body-noborder" id="_panel_/Home/About" style="width: 1668px; height: 844px;"><iframe style="height:99%;width:100%" src="Home/About?currentUserID=160601" frameborder="0"></iframe></div></div></div></div>
+		</div>
+	</div></div>
+<div class="layout-split-proxy-h"></div><div class="layout-split-proxy-v"></div></div>
+
+		</div></div>
+	<div class="layout-split-proxy-h"></div><div class="layout-split-proxy-v"></div></div>
+	<script src="/lib/easyui/jquery.easyui.min.js?v=bd5SwiktK6szGUpEb-3Z_WaMfTgKd9Oq9bDo7He_gVQ"></script>
+	<script src="/lib/easyui/locale/easyui-lang-zh_CN.js?v=gjxjEKUVxYlubNPD-C-tQncNPYTKCGvnMk4qyVnkd20"></script>
+	<script src="/js/util/util.js?v=0swFGqeiq-1nlP20tk1MfRkbNOSCrfA1xf_46L3czZg"></script>
+	<script src="/js/util/framework-util.js?v=s29tUBPQRl9dheiEVpidKNbK6vuy_NRQxS08J71dzVI"></script>
+	<script src="/js/util/easyui-extend.js?v=dN1-8Imvk7rw9Eo_NB7y9Pe3P5j0haxvIZewuDeVHPw"></script>
+	<script src="/js/util/jquery.ajax.arraybuffer.min.js?v=Gm9QlFRxrivN8aWCSlna2BlKdSRPm0YYt7CQu8kXBPw"></script>
+	<script src="/js/site.js?v=_2UYrACGLK0a7v63eqYHIOluoNPLV4Mh28YHARdLxss"></script>
+	
+<script src="/lib/easyui/jquery.easyui.extend.js?v=Gx23TnlNWyzksvh8Z8bNt6_rgZ9TyozsVn_ZoTW2TO8" type="text/javascript"></script>
+<script src="/js/View/Home/Desktop.js?v=aFAcxJ0eJnrPcYEtSOLiolOx2KS_XsVULE2bKdPOAb8" type="text/javascript"></script><div id="global_dialog" style="padding:5px;display:none;"></div>
+<script type="text/javascript">
+	var data=[{"id":"1","text":"系统设置","iconCls":"icon_menu_setting","state":"open","attributes":null,"children":[{"id":"113","text":"用户管理","iconCls":"icon_child_null","state":"","attributes":{"url":"Basic/User/Index"},"children":null,"searchFlag":false},{"id":"114","text":"角色管理","iconCls":"icon_child_null","state":"","attributes":{"url":"Basic/Role/Index"},"children":null,"searchFlag":false},{"id":"25","text":"角色权限管理","iconCls":"icon_child_null","state":"","attributes":{"url":"Basic/RolePopedom/Index"},"children":null,"searchFlag":false}],"searchFlag":false},{"id":"206","text":"绩效管理","iconCls":"icon_wallet","state":"","attributes":null,"children":[{"id":"207","text":"绩效系数维护","iconCls":"icon_child_null","state":"","attributes":{"url":"SalePerformance/Coefficient/Index"},"children":null,"searchFlag":false},{"id":"208","text":"人员及指标分配表","iconCls":"icon_child_null","state":"","attributes":{"url":"SalePerformance/StoreTarget/Index"},"children":null,"searchFlag":false},{"id":"209","text":"基础数据表","iconCls":"icon_child_null","state":"","attributes":{"url":"SalePerformance/BasePerformance/Index"},"children":null,"searchFlag":false},{"id":"210","text":"绩效分配表","iconCls":"icon_child_null","state":"","attributes":{"url":"SalePerformance/Distribution/Index"},"children":null,"searchFlag":false}],"searchFlag":false}];
+</script>
+<script src="/js/View/Home/Home.js?v=IEoepfYdg7sDfuUQ3wc8HWtjZCvh4VApFXju1z5T50A" type="text/javascript"></script>
+    
+
+
+
+</body></html>
