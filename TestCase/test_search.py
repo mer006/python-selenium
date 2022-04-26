@@ -13,6 +13,7 @@ class TestSearch:
     @pytest.fixture(scope='function', autouse=True)
     def open_baidu(self, drivers):
         '''打开百度'''
+        #driver即conftest中的drivers？
         search = SearchPage(drivers)
         search.get_url(ini.url)
     

@@ -5,3 +5,5 @@ pip install pyyaml
 
 pip install pytest
 pip install pytest-html
+
+#pip install zmail
