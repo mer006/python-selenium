@@ -18,8 +18,10 @@ def firefoxDriver():
     mainwindow = server.current_window_handle
     print(server.current_url)
     print('mainwindow',mainwindow)
-    server.find_element(By.XPATH,"//*[div='绩效管理']").click()
-    server.find_element(By.XPATH,"//*[@id='_easyui_tree_6']").click()
+    server.find_element(By.XPATH,'//*[div="绩效管理"]').click()
+    #server.find_element(By.CSS_SELECTOR,'span.tree-title')
+    #server.find_element(By.XPATH,'//span[span="基础数据表"]').click()
+    server.find_element(By.XPATH,'//span[text()="基础数据表"]').click()
     #print(server.page_source)
     print(server.current_url)
     sleep(2)

@@ -7,3 +7,5 @@ pip install pytest
 pip install pytest-html
 
 #pip install zmail
+
+pip install ddddocr  #识别动态图形验证码
